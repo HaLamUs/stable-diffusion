@@ -104,8 +104,12 @@ For me, I simply leave all parameters at their default settings, input the promp
 
 <img src="./imgs/ui.png">
 
+## Showcases
 
 
+1st | 2nd | 3rd
+:--: | :--:| :--:
+<img src="./imgs/1.png" width="230" /> | <img src="./imgs/2.png" width="250" /> | <img src="./imgs/3.png" width="300" />
 
 
 <p><img type="separator" height=8px width="100%" src="https://github.com/HaLamUs/nft-drop/blob/main/assets/aqua.png"></p>

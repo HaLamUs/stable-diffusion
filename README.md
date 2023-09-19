@@ -43,6 +43,70 @@ In summary, both Stable Diffusion and Midjourney are powerful tools for generati
 - The community is bigger.
 - How's kool it that!
 
+# Installation 
+## Architect 
+It's include the FrontEnd and the Backend.
+
+- Our FrontEnd uses: https://github.com/AUTOMATIC1111/stable-diffusion-webui
+
+- Our Backend will be any model (checkpoint) which we can access
+
+## Install 
+
+### Frontend 
+Follow this to get the lastest.
+
+https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Installation-on-Apple-Silicon
+
+My specs:
+  💻 Macbook Pro 
+  - Chip: M1 Pro
+  - Memory: 32 GB
+  - Disk: 1T 
+
+I don't need this step 
+
+~~brew install cmake protobuf rust python@3.10 git wget~~
+
+```bash
+git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui
+cd stable-diffusion-webui
+./webui.sh
+```
+
+## Update 
+
+`git pull`
+
+### Backend 
+
+The models I downloaded are relatively `small` in size. I first tested the base model. If necessary, create an account with HuggingFace. 
+
+[Stable DIffusion 1.4 (sd-v1-4.ckpt)](https://huggingface.co/CompVis/stable-diffusion-v-1-4-original)
+
+
+
+My review: It’s great for creating fantasy characters, but not so good for humans. 
+
+I used a model from the Vietnamese community to create a high-quality female character. 
+
+https://civitai.com/models/123307/sdvn7-nijistylexl
+
+My review: It’s definitely better. 
+
+## How to use 
+
+This one is quite detailed. 
+
+https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features
+
+For me, I simply leave all parameters at their default settings, input the prompt, and then press the Generate button. I plan to delve deeper into it later.
+
+<img src="./imgs/ui.png">
+
+
+
+
 
 <p><img type="separator" height=8px width="100%" src="https://github.com/HaLamUs/nft-drop/blob/main/assets/aqua.png"></p>
 

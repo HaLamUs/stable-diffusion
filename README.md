@@ -51,9 +51,9 @@ It's include the FrontEnd and the Backend.
 
 - Our Backend will be any model (checkpoint) which we can access
 
-## Install 
+# Install 
 
-### Frontend 
+## Frontend 
 Follow this to get the lastest.
 
 https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Installation-on-Apple-Silicon
@@ -104,12 +104,34 @@ For me, I simply leave all parameters at their default settings, input the promp
 
 <img src="./imgs/ui.png">
 
-## Showcases
+# Showcases
 
 
 1st | 2nd | 3rd
 :--: | :--:| :--:
 <img src="./imgs/1.png" width="230" /> | <img src="./imgs/2.png" width="250" /> | <img src="./imgs/3.png" width="300" />
+
+
+# Generative ai terms  
+## Lora  
+  LoRA: Low-Rank Adaptation of Large Language Models is a novel technique introduced by Microsoft researchers to deal with the problem of fine-tuning large-language models
+  https://huggingface.co/blog/lora
+
+  While Stable Diffusion can generate images from text prompts, adding a control mechanism like LoRa can give you more influence over the specifics of those generated images. 
+
+## ControlNet 
+  While Stable Diffusion is capable of generating images from text, ControlNet provides an additional layer of control over the specifics of those generated images.
+  https://huggingface.co/docs/diffusers/main/en/api/pipelines/controlnet_sdx
+
+## RLHF: 
+  Reinforcement Learning from Human Feedback
+  https://huggingface.co/blog/rlhf
+
+## Run inference
+  RI is the process of running live data points into a machine learning algorithm (or “ML model”) to calculate an output such as a single numerical score
+
+
+
 
 
 <p><img type="separator" height=8px width="100%" src="https://github.com/HaLamUs/nft-drop/blob/main/assets/aqua.png"></p>
